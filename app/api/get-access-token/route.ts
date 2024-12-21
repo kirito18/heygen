@@ -1,4 +1,4 @@
-const HEYGEN_API_KEY = process.env.HEYGEN_API_KEY;
+const HEYGEN_API_KEY = 'ODgxOGQ5MDhiMDkzNDA0YjlhMmQ2NmYzMmJkMDE5ZWYtMTcyNTI5MDgwNA==';
 
 export async function POST() {
   try {

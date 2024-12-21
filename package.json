@@ -3,11 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "node_modules/next/dist/bin/next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+},
   "dependencies": {
     "@ai-sdk/openai": "^0.0.34",
     "@heygen/streaming-avatar": "^2.0.7",
@@ -34,12 +33,13 @@
     "clsx": "2.1.1",
     "framer-motion": "~11.1.1",
     "intl-messageformat": "^10.5.0",
-    "next": "14.2.4",
+    "next": "^14.2.4",
     "next-themes": "^0.2.1",
     "openai": "^4.52.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "zod": "^3.23.8"
+    "zod": "^3.23.8",
+    "next": "^14.2.9"
   },
   "devDependencies": {
     "@types/node": "20.5.7",
